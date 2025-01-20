@@ -1,0 +1,18 @@
+.navbar{
+    background-color: rgb(139, 139, 253) !important;
+    
+}
+
+.nav-link{
+    color: white !important; 
+   
+}
+
+.nav-link:hover{
+    color: black !important;
+    /* transform: scale(1.2)  Zoom and slide effect */
+}
+.navbar-brand{
+    cursor:  no-drop;
+    font-weight: bold;
+}
