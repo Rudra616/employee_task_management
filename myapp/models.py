@@ -19,7 +19,6 @@ class UserRegister(models.Model):
         ],
     )
     add = models.TextField(default="Default Address")
-
     def __str__(self):
         return self.name
 class employeedetails(models.Model):

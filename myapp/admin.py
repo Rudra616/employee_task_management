@@ -4,7 +4,6 @@ from .models import *
 # Register your models here.
 
 
-
 class userreg_(admin.ModelAdmin):
     list_display = [ 'name', 'email','password','mob', 'add']
     def Confirm_password(self, obj):
